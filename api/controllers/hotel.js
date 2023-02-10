@@ -1,4 +1,5 @@
 import Hotel from '../model/hotel.js';
+import Room from '../model/room.js';
 
 export const createHotel = async (req, res, next) => {
   console.log(req.body);
